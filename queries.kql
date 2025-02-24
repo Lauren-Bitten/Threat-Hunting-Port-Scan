@@ -1,1 +1,15 @@
+// Detecting failed connections from a specific IP
+let IPInQuestion = "10.0.0.154";
+DeviceNetworkEvents
+| where ActionType == "ConnectionFailed"
+| where LocalIP == IPInQuestion
+| order by Timestamp desc
+
+// Tracking PowerShell script execution
+let VMName = "lauren-w-sc2";
+let specificTime = datetime(Feb 24, 2025 10:37:22 AM);
+DeviceProcessEvents
+| where Timestamp between ((specificTime - 10m) .. (specificTime + 10m))
+| where DeviceName == VMName
+| order by Timestamp desc
 
