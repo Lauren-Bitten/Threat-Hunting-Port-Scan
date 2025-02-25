@@ -82,6 +82,6 @@ Implemented PowerShell restrictions & firewall rules to prevent future incidents
 
 🔗 Resources
 GitHub Repository: [(https://github.com/Lauren-Bitten/Threat-Hunting-Port-Scan)]
-LinkedIn Post: [Insert LinkedIn share link here]
+LinkedIn Post: [https://www.linkedin.com/feed/update/urn:li:activity:7300008023542956033/]
 Cyber Range Discussion: [Insert Cyber Range share link here]
 
